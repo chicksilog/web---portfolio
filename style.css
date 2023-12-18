@@ -682,6 +682,9 @@ nav .fa-solid {
   display: none;
 }
 @media screen and (max-width: 320px) {
+  #header {
+    background-image: url(images/fiona-phone.png);
+  }
   .header-text {
     padding-top: 0px;
     font-size: 18px;
@@ -710,7 +713,9 @@ nav .fa-solid {
 @media screen and (max-width: 375px) {
   #header {
     row-gap: 2rem;
+    background-image: url(images/fiona-phone.png);
   }
+  
   .header-text {
     display: flex;
     align-items: center;
